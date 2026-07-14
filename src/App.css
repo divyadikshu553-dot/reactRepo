@@ -1,0 +1,262 @@
+.myNavbar {
+  background-color: #000000ee;
+  padding: 10px 30px;
+}
+
+.myNavbar .navbar-nav {
+  align-items: center;
+}
+
+.myNavbar .nav-link {
+  color: white;
+  text-decoration: none;
+  padding: 0;
+}
+
+.myNavbar .navbar-brand {
+  color: white;
+  font-size: 25px;
+}
+.navtext {
+  color: #f7ebeb;
+  text-decoration: none;
+  /* margin-left: 180px; */
+  font-size: 16px;
+}
+
+.navText:hover {
+  color: white;
+}
+
+.homeText {
+  color: #f5f3f1 !important;
+}
+.homeText:hover {
+  color: #fff !important; /* hover par white */
+}
+.homewhite {
+  color: white;
+}
+.homewhite:hover {
+  color: white !important;
+}
+.back1 {
+  background-color: rgba(12, 12, 12, 0.966);
+  min-height: 100vh;
+  width: 100%;
+}
+.aboutContent {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 120px 80px;
+}
+
+.about {
+  font-size: 50px;
+  margin: 0;
+  color: white;
+}
+
+.para {
+  font-size: 20px;
+  margin-top: 30px;
+  margin-left: 0; /* Ye 100px hata do */
+  line-height: 1.7;
+  color: white;
+}
+
+.img {
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+}
+.ex {
+  color: white;
+  font-size: 30px;
+}
+
+.txt {
+  color: white;
+  font-size: 25px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.small {
+  color: white;
+  font-weight: lighter;
+}
+.bottomSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 60px 80px;
+  gap: 80px;
+}
+
+.leftSide {
+  flex: 2;
+}
+
+.rightSide {
+  flex: 1;
+  margin-top: 10px;
+}
+
+.connect {
+  color: white;
+  font-size: 40px;
+  margin-bottom: 30px;
+}
+.para2 {
+  color: white;
+  font-size: 20px;
+}
+.back2 {
+  /* background-color: black; */
+  background-color: rgba(12, 12, 12, 0.966);
+  /* background-color: white; */
+  min-height: 100vh;
+  width: 100%;
+  color: white;
+}
+.homeContent {
+  padding-top: 180px; /* Neeche lane ke liye */
+  padding-left: 100px; /* Left side lane ke liye */
+}
+.home {
+  color: white;
+  font-size: 20px;
+}
+
+.homeContent h1 {
+  color: white;
+  font-size: 50px;
+}
+.btnBox {
+  margin-top: 30px;
+}
+.btn1 {
+  border-radius: 10px;
+  border: none;
+  padding: 12px 25px;
+  margin-right: 20px; /* Gap */
+  cursor: pointer;
+}
+.btn2 {
+  border-radius: 10px;
+  border: none;
+  padding: 12px 25px;
+  border: 1px solid white;
+  cursor: pointer;
+}
+.pro{
+  background-color:  rgba(12, 12, 12, 0.966);
+   height: 550px;
+  width: 100%;
+  color: white;
+  
+}
+.proContent {
+  padding-top: 80px; /* Neeche lane ke liye */
+  padding-left: 160px; /* Left side lane ke liye */
+}
+.proContent p{
+  font-size: 20px;
+  font-weight: lighter;
+}
+.cardContainer{
+  display: flex;
+  justify-content: center; /* Cards center me aayenge */
+  gap: 30px;               /* Cards ke beech gap */
+  margin-top: 50px;
+  flex-wrap: wrap;         /* Chhoti screen par neeche aa jayenge */
+}
+.card{
+  background-color: black;
+  color: white;
+  border: 1px dashed white;
+    /* height: 150px; */
+}
+.card-img-top{
+  height: 150px;
+  object-fit: cover;
+}
+ .Blog{
+  background-color: black;
+  color: white;
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 80px; /* Neeche lane ke liye */
+  padding-left: 160px; 
+  /* margin-bottom: 30px; */
+} 
+.D{
+   border: 1px dashed white;
+   width: 1000px;
+   height: 250px;
+   border-radius: 12px;
+      margin-bottom: 30px;   /* Divs ke beech gap */
+}
+ .image{
+  width: 200px;
+  object-fit: cover;
+}
+
+/* .D{
+   border: 1px dashed white;
+   width: 1000px;
+   height: 250px;
+   border-radius: 12px;
+   margin-bottom: 30px;
+
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 20px;
+}
+.image{
+  width: 220px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+} */
+.homeSection{
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 150px 100px;
+  margin-top: -80px;
+}
+
+.homeContent{
+  width: 50%;
+}
+
+.homeImage{
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.image2{
+  width: 450px;
+  height: auto;
+}
+.button{
+  display: flex;
+  gap:10px;
+  margin-left: 80px;
+  /* background-color: #2b2929; */
+
+}
+.b1{
+  border-radius: 12px;
+  background-color: #777575;
+  border: none;
+  color: white;
+}
+.b2{
+  margin-top: 10px;
+}
