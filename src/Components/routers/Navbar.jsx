@@ -6,7 +6,7 @@ const Navbar = () => {
       <nav className="navbar navbar-expand-lg myNavbar">
         <div className="container-fluid">
           <a className="navbar-brand" href="#">
-            Your Name
+            <i class="fa-solid fa-star"></i>  Your Name
           </a>
           <button
             className="navbar-toggler"
@@ -35,6 +35,8 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
+        <button  className="bt">☀Day Mode</button>
+       
       </nav>
     </div>
   );

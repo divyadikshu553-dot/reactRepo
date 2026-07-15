@@ -29,15 +29,15 @@ const About = () => {
       <div className="button">
         <button className="b1">Next.js</button>
         <button className="b1">React</button>
-        <button className="b1">Typescript</button>
-        <button className="b1">Tailwind css</button>
-        </div>
-        <div className="b2"></div>  
+        <button className="b1">TypeScript</button>
+        <button className="b1">Tailwind CSS</button>
+
         <button className="b1">Node.js</button>
         <button className="b1">Docker</button>
         <button className="b1">Git</button>
-        <button className="b1">Aws</button>
-      
+        <button className="b1">AWS</button>
+      </div>
+
       <div className="bottomSection">
         <div className="leftSide">
           <h1 className="ex">Experience</h1>
@@ -72,7 +72,6 @@ const About = () => {
           </p>
         </div>
       </div>
-      
     </div>
   );
 };

@@ -10,21 +10,25 @@ import Projects from "./Components/routers/Projects";
 import Posts from "./Components/routers/Posts";
 import About from "./Components/routers/About";
 
+
 function App() {
+  
   return (
     <>
       {/* <Navbar/>
      <Slider/> */}
+    
       <BrowserRouter>
         <Navbar />
 
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/Posts" element={<Posts />} />
-           <Route path="/Projects" element={<Projects />} />
+          <Route path="/Projects" element={<Projects />} />
           <Route path="/About" element={<About />} />
         </Routes>
       </BrowserRouter>
+     
     </>
   );
 }

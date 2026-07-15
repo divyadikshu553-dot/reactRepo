@@ -122,7 +122,7 @@
   color: white;
 }
 .homeContent {
-  padding-top: 180px; /* Neeche lane ke liye */
+  /* padding-top: 180px; Neeche lane ke liye */
   padding-left: 100px; /* Left side lane ke liye */
 }
 .home {
@@ -186,6 +186,7 @@
  .Blog{
   background-color: black;
   color: white;
+  /* height: 1000px; */
   min-height: 100vh;
   width: 100%;
   padding-top: 80px; /* Neeche lane ke liye */
@@ -197,18 +198,6 @@
    width: 1000px;
    height: 250px;
    border-radius: 12px;
-      margin-bottom: 30px;   /* Divs ke beech gap */
-}
- .image{
-  width: 200px;
-  object-fit: cover;
-}
-
-/* .D{
-   border: 1px dashed white;
-   width: 1000px;
-   height: 250px;
-   border-radius: 12px;
    margin-bottom: 30px;
 
    display: flex;
@@ -216,12 +205,18 @@
    align-items: center;
    padding: 20px;
 }
+
 .image{
-  width: 220px;
-  height: 180px;
-  object-fit: cover;
-  border-radius: 10px;
-} */
+   width: 220px;
+   height: 180px;
+   object-fit: cover;
+   border-radius: 10px;
+}
+
+.Posttext{
+   width: 70%;
+}
+
 .homeSection{
   display: flex;
   justify-content: space-between;
@@ -241,22 +236,39 @@
 }
 
 .image2{
-  width: 450px;
+  width: 350px;
   height: auto;
 }
 .button{
-  display: flex;
-  gap:10px;
-  margin-left: 80px;
-  /* background-color: #2b2929; */
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    width: 500px;
+    margin-left: 100px;
+    margin-top: -20px;
+}
 
-}
 .b1{
-  border-radius: 12px;
-  background-color: #777575;
-  border: none;
-  color: white;
+    background-color: #2f2f2f;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 8px 16px;
+    font-size: 15px;
+    cursor: pointer;
 }
-.b2{
-  margin-top: 10px;
+
+.b1:hover{
+    background-color: #444;
+}
+  .bt{
+    width: 120px;
+    height: 40px;
+    border: none;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    cursor: pointer;
 }

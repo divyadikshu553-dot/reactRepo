@@ -18,14 +18,17 @@ const Home = () => {
           </p>
 
           <div className="btnBox">
-            <button className="btn1">View About</button>
-            <button className="btn2">Read Posts</button>
+            <button className="btn1">View About <i className="fa-solid fa-arrow-right"></i></button>
+            <button className="btn2">Read Posts <i className="fa-solid fa-arrow-right"></i></button>
           </div>
         </div>
 
         <div className="homeImage">
           <img
             src="https://www.freeiconspng.com/uploads/white-spider-web-png-9.png"
+            // src="https://themewagon.github.io/multiplepage-portfolio/assets/images/tech-background.svg"
+            // style={{ width: "350px", border: "2px solid red" }}
+
             className="image2"
             alt="background"
           />
